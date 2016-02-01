@@ -2,8 +2,8 @@ deployment:
   dockerhub:
     branch: master
       commands:
-        - echo "Hello"
-
+        - echo
+        
 test:
   override:    
     - mocha
