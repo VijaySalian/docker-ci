@@ -7,8 +7,7 @@
 #    commands:
 #      - $DOCKER_HUB_TRIGGER
 
-deployment:
-  dockerhub:
+deployment.dockerhub:
   branch: master
 #  commands:
 #    - $DOCKER_AUTO_BUILD
