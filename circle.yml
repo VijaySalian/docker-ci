@@ -1,7 +1,7 @@
 deployment:
   dockerhub:    
     branch: master
-      commands:
+      commands: 
         - $DOCKER_AUTO_BUILD
 
 test:
