@@ -1,9 +1,7 @@
-deployment:
-  dockerhub:
-    branch: master
-      commands:
-        - echo
-        
 test:
   override:    
     - mocha
+
+deployment:
+  dockerhub:
+    branch: master
