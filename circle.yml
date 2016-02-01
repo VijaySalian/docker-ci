@@ -2,7 +2,7 @@ deployment:
   dockerhub:
     branch: master
       commands:
-        - $DOCKER_AUTO_BUILD
+        - echo $DOCKER_AUTO_BUILD
 
 test:
   override:    
